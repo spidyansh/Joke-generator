@@ -12,7 +12,7 @@ I’m still working on it.`]
 let btn = document.querySelector(".btn")
 let container = document.querySelector(".container")
 
-
+//code to generate random joke
 btn.addEventListener("click", ()=>{
     let random = Math.floor(Math.random()*joke.length)
     container.innerHTML = joke[random]
